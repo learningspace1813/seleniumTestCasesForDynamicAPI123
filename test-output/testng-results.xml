@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-06T23:39:05 IST" name="Default suite" finished-at="2025-07-06T23:39:17 IST" duration-ms="11881">
+  <suite started-at="2025-07-07T00:33:09 IST" name="Default suite" finished-at="2025-07-07T00:33:20 IST" duration-ms="11513">
     <groups>
     </groups>
-    <test started-at="2025-07-06T23:39:05 IST" name="Default test" finished-at="2025-07-06T23:39:17 IST" duration-ms="11881">
-      <class name="simpleSeleniumTestCases.TC_02_orderMtplAmznProducts">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:simpleSeleniumTestCases.TC_02_orderMtplAmznProducts@3fc2959f]" started-at="2025-07-06T23:39:05 IST" name="setUp" finished-at="2025-07-06T23:39:08 IST" duration-ms="3172" status="PASS">
+    <test started-at="2025-07-07T00:33:09 IST" name="Default test" finished-at="2025-07-07T00:33:20 IST" duration-ms="11513">
+      <class name="simpleSeleniumTestCases.TC_01_orderSingleProduct">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:simpleSeleniumTestCases.TC_01_orderSingleProduct@1f2586d6]" started-at="2025-07-07T00:33:09 IST" name="setUp" finished-at="2025-07-07T00:33:12 IST" duration-ms="2932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomepage()[pri:1, instance:simpleSeleniumTestCases.TC_02_orderMtplAmznProducts@3fc2959f]" started-at="2025-07-06T23:39:08 IST" name="verifyHomepage" description="Homepage Verification." finished-at="2025-07-06T23:39:08 IST" duration-ms="42" status="PASS">
+        <test-method signature="verifyHomepage()[pri:1, instance:simpleSeleniumTestCases.TC_01_orderSingleProduct@1f2586d6]" started-at="2025-07-07T00:33:12 IST" name="verifyHomepage" description="Homepage Verification." finished-at="2025-07-07T00:33:12 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomepage -->
-        <test-method signature="browserProduct()[pri:2, instance:simpleSeleniumTestCases.TC_02_orderMtplAmznProducts@3fc2959f]" started-at="2025-07-06T23:39:08 IST" name="browserProduct" description="Searching my product." finished-at="2025-07-06T23:39:15 IST" duration-ms="6668" status="PASS">
+        <test-method signature="searchProduct()[pri:2, instance:simpleSeleniumTestCases.TC_01_orderSingleProduct@1f2586d6]" started-at="2025-07-07T00:33:12 IST" name="searchProduct" description="Searching my product." finished-at="2025-07-07T00:33:12 IST" duration-ms="494" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserProduct -->
-        <test-method signature="quantity()[pri:3, instance:simpleSeleniumTestCases.TC_02_orderMtplAmznProducts@3fc2959f]" started-at="2025-07-06T23:39:15 IST" name="quantity" description="Select product Quantity." finished-at="2025-07-06T23:39:15 IST" duration-ms="444" status="PASS">
+        </test-method> <!-- searchProduct -->
+        <test-method signature="selectProduct()[pri:3, instance:simpleSeleniumTestCases.TC_01_orderSingleProduct@1f2586d6]" started-at="2025-07-07T00:33:12 IST" name="selectProduct" description="ordering 3D Illusion Iron Man534." finished-at="2025-07-07T00:33:20 IST" duration-ms="7576" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quantity -->
-        <test-method signature="addToBucket()[pri:4, instance:simpleSeleniumTestCases.TC_02_orderMtplAmznProducts@3fc2959f]" started-at="2025-07-06T23:39:15 IST" name="addToBucket" description="Select product Quantity." finished-at="2025-07-06T23:39:17 IST" duration-ms="1479" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToBucket -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:simpleSeleniumTestCases.TC_02_orderMtplAmznProducts@3fc2959f]" started-at="2025-07-06T23:39:17 IST" name="tearDown" finished-at="2025-07-06T23:39:17 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- selectProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:simpleSeleniumTestCases.TC_01_orderSingleProduct@1f2586d6]" started-at="2025-07-07T00:33:20 IST" name="tearDown" finished-at="2025-07-07T00:33:20 IST" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- simpleSeleniumTestCases.TC_02_orderMtplAmznProducts -->
+      </class> <!-- simpleSeleniumTestCases.TC_01_orderSingleProduct -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
