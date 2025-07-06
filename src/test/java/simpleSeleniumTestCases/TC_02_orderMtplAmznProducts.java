@@ -83,10 +83,10 @@ public class TC_02_orderMtplAmznProducts extends STP_02_baseTest {
 		aadProductInProduct.click();
 	}
 	
-//    @AfterClass
-//    public void tearDown() {
-//        if (driver != null) {
-//            driver.quit();
-//        }
-//    }
+        @AfterClass
+        public void tearDown() {
+            if (driver != null) {
+                driver.quit();
+            }
+        }
 }
