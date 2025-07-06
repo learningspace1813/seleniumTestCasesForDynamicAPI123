@@ -1,0 +1,6 @@
+com\example\selenium\orangeAppTesting.class
+orderMultipleAmznProducts\STP_02_baseTest.class
+orderMultipleAmznProducts\TC_01_orderSingleProduct.class
+orderMultipleAmznProducts\STP_01_variablesAmznProducts.class
+orderMultipleAmznProducts\TC_02_orderMtplAmznProducts.class
+com\example\selenium\AppTest.class

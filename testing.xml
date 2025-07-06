@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AllTests">
+    <test name="baseTest">
+        <classes>
+        	<!-- <class name="orderMultipleAmznProducts.TC_01_orderSingleProduct"/>
+            <class name="orderMultipleAmznProducts.TC_02_orderMtplAmznProducts"/>-->
+            
+            <class name="simpleSeleniumTestCases.TC_01_orderSingleProduct"/>
+            <class name="simpleSeleniumTestCases.TC_02_orderMtplAmznProducts"/>
+        </classes>
+    </test>
+</suite>
