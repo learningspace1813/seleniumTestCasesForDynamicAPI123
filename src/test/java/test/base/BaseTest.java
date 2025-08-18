@@ -1,0 +1,1 @@
+// Placeholder content for src/test/java/base/BaseTest.java

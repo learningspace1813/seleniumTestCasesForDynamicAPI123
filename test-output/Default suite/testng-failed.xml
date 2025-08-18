@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="simpleSeleniumTestCases.TC_02_orderMtplAmznProducts">
+      <class name="profTravel.travelAppTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="addToBucket"/>
-          <include name="quantity"/>
-          <include name="setUp"/>
+          <include name="setuptest"/>
+          <include name="blogs"/>
         </methods>
-      </class> <!-- simpleSeleniumTestCases.TC_02_orderMtplAmznProducts -->
+      </class> <!-- profTravel.travelAppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
