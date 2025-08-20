@@ -13,7 +13,7 @@ public class variables {
 	public static final String settingPlace = "(//div[contains(@class,'fadein')])[2]//div[2]";
 	public static final String departureDate = "//input[@id='departure']";
 	public static final String departPlaceDD = "//input[@name='to']";
-	public static final String departPlace = "(//div[contains(@class,'fadein')])[3]//div[3]";
+	public static final String departPlace = "(//div[@class='most--popular-from fadein results-container-to']//div[2])";
 	public static final String travelCountDD = "//a[@data-toggle='dropdown']";
 	public static final String travelCountIncre = "(//*[local-name()='svg' and contains(@stroke-linejoin,'round')])[14]";
 	public static final String searchFlight = "//button[@id='flights-search']";
