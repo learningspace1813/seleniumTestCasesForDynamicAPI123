@@ -13,7 +13,7 @@ public class variables {
 	public static final String settingPlace = "(//div[contains(@class,'fadein')])[2]//div[2]";
 	public static final String departureDate = "//input[@id='departure']";
 	public static final String departPlaceDD = "//input[@name='to']";
-	public static final String departPlace = "(//div[contains(@class,'dropdown dropdown-contain')])[1]";
+	public static final String departPlace = "(//div[@class="qtyInc"])[2]";
 	public static final String travelCountDD = "(//div[contains(@class,'dropdown dropdown-contain')])[1]";
 	public static final String travelCountIncre = "(//div[@class="qtyInc"])[2]";
 	public static final String searchFlight = "//button[@id='flights-search']";
